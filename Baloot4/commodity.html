@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/commodity.css">
+    <title>Baloot | Commodity</title>
+    <link rel="icon" type="image/x-icon" href="icons/baloot.ico">
+</head>
+<body>
+    <div id="body-wrapper" class="container-fluid p-0 d-flex flex-column flex-nowrap">
+    <header>
+        <div id="header-wrapper" class="bg-white container-fluid px-4 px-xl-5 py-1 d-flex flex-row flex-nowrap justify-content-between align-items-center">
+            <div id="header-logo" class="d-flex flex-row flex-nowrap align-items-center">
+                <a href="index-logged-in.html" id="baloot-logo"></a>
+                <a href="index-logged-in.html" id="baloot-title" class="color-copper ms-2 fw-semibold fs-4">Baloot</a>
+            </div>
+            <div id="user-cart">
+                <div class="btn-toolbar wd-100" role="toolbar">
+                    <a href="#" class="btn color-brown col-5 d-flex justify-content-center align-items-center">#username</a>
+                    <a href="#" class="btn bg-linen color-copper col-5 rounded-3 d-flex justify-content-center align-items-center ms-3">
+                        <span class="color-copper me-auto">Cart</span>
+                        <span class="color-copper">0</span>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="main-wrapper" class="bg-white container-fluid px-4 px-xl-5 py-0 mb-4 mb-xl-5 d-flex flex-column flex-nowrap align-items-center">
+            <div id="commodity" class="main-item col-11 row g-0">
+                <div id="commodity-image" class="col-6 px-2">
+                    <a href="images/phone.svg" target="_blank">
+                        <img src="images/phone.svg" alt="commodity" class="col-12">
+                    </a>
+                </div>
+                <div id="commodity-details" class="col-6 px-2">
+                    <div id="commodity-name" class="color-brown fw-bold">Huawei nova 9</div>
+                    <div id="commodity-inStock" class="color-red fw-semibold">1 left in stock</div>
+                    <div id="commodity-provider" class="fw-semibold">
+                        by 
+                        <a href="provider.html" class="color-blue">Huawei</a>
+                    </div>
+                    <div id="commodity-categories" class="color-brown">
+                        Category(s)
+                        <ul>
+                            <li>Technology</li>
+                            <li>IT</li>
+                        </ul>
+                    </div>
+                    <div id="price-add" class="col-10 px-3 py-2 px-xl-5 py-xl-4 mb-4 mb-xl-5 d-flex flex-row flex-nowrap align-items-center">
+                        <span id="commodity-price" class="color-brown fw-semibold me-auto">300$</span>
+                        <button id="add-to-cart" type="button" class="btn color-brown px-3 py-2 px-xl-4 py-xl-3 rounded-3">add to cart</button>
+                    </div>
+                    <div id="commodity-rate" class="col-10 ps-2 pe-3 ps-xl-4 pe-xl-5 card-text fw-semibold d-flex flex-row flex-nowrap align-items-center">
+                        <div id="score" class="d-flex flex-column flex-nowrap me-auto">
+                            <span class="mb-2">rate now</span>
+                            <div class="mt-2">
+                                <span class="me-xl-1 logo-star"></span>
+                                <span class="me-xl-1 logo-star"></span>
+                                <span class="me-xl-1 logo-star"></span>
+                                <span class="me-xl-1 logo-star"></span>
+                                <span class="me-xl-1 logo-star"></span>
+                                <span class="me-xl-1 logo-star"></span>
+                                <span class="me-xl-1 logo-star"></span>
+                                <span class="me-xl-1 logo-star"></span>
+                                <span class="me-xl-1 logo-star"></span>
+                                <span class="me-xl-1 logo-star"></span>
+                            </div>
+                        </div>
+                        <button id="sumbit" type="submit" class="btn bg-brown color-linen py-2 rounded-3">submit</button>
+                    </div>
+                    <div id="commodity-rating">
+                        <span class="logo-star"></span>
+                        <span class="color-brown fs-3 fw-semibold">4.1</span>
+                        <span class="color-grey fw-semibold">(12)</span>
+                    </div>
+                </div>
+            </div>
+            <div id="comments" class="main-item col-11">
+                <div id="comments-title" class="fs-4">
+                    <span class="color-brown">Comments</span>
+                    <span class="color-grey">(2)</span>
+                </div>
+                <div class="comment d-flex flex-column flex-nowrap justify-content-center">
+                    <div class="comment-header">This was awesome!!!!</div>
+                    <div class="comment-date-user">
+                        <span>2023-03-20</span>
+                        <span>.</span>
+                        <span>#username</span>
+                    </div>
+                    <div class="comment-like-dislike align-self-end">
+                        <span>Is this comment helpful?</span>
+                        <span>
+                            1
+                            <span class="logo logo-like"></span>
+                        </span>
+                        <span>
+                            1
+                            <span class="logo logo-dislike"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="comment d-flex flex-column flex-nowrap justify-content-center">
+                    <div class="comment-header">This was awfulllllllllllllllllllll!!!!</div>
+                    <div class="comment-date-user">
+                        <span>2023-03-20</span>
+                        <span>.</span>
+                        <span>#username</span>
+                    </div>
+                    <div class="comment-like-dislike align-self-end">
+                        <span>Is this comment helpful?</span>
+                        <span>
+                            1
+                            <span class="logo logo-like"></span>
+                        </span>
+                        <span>
+                            1
+                            <span class="logo logo-dislike"></span>
+                        </span>
+                    </div>
+                </div>
+                <div id="comment-submit">
+                    <div class="color-brown fs-4">Submit your opinion</div>
+                    <form action="#" class="mt-4 d-flex flex-row flex-nowrap">
+                        <textarea name="comment-text" id="comment-text" rows="4" class="col-10 bg-smoke px-4 py-3 fs-5 rounded-3"></textarea>
+                        <button type="submit" class="btn bg-brown color-linen px-4 py-2 ms-auto rounded-3 fs-5 align-self-end">Post</button>
+                    </form>
+                </div>
+            </div>
+            <div id="commodities" class="main-item col-11">
+                <div class="color-brown mt-4 mb-5 fs-3 fw-semibold">You also might like...</div>
+                <div class="row row-cols-4 g-4">
+                    <div class="col">
+                        <div class="card h-100 px-2 py-3">
+                            <div class="card-body py-0">
+                                <div class="card-title color-brown m-0 fw-semibold">Huawei nova 9</div>
+                                <div class="card-text color-red fw-semibold">1 left in stock</div>
+                            </div>
+                            <a href="commodity.html" target="_blank">
+                                <img src="images/phone.svg" class="card-img-top my-2" alt="commodity">
+                            </a>
+                            <div class="card-body py-0 d-flex flex-row flex-nowrap align-items-center">
+                                <span class="color-brown fw-semibold me-auto">300$</span>
+                                <button type="button" class="add-to-cart btn color-brown px-3 py-2 rounded-4">add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 px-2 py-3">
+                            <div class="card-body py-0">
+                                <div class="card-title color-brown m-0 fw-semibold">Huawei nova 9</div>
+                                <div class="card-text color-red fw-semibold">1 left in stock</div>
+                            </div>
+                            <a href="commodity.html" target="_blank">
+                                <img src="images/phone.svg" class="card-img-top my-2" alt="commodity">
+                            </a>
+                            <div class="card-body py-0 d-flex flex-row flex-nowrap align-items-center">
+                                <span class="color-brown fw-semibold me-auto">300$</span>
+                                <button type="button" class="add-to-cart btn color-brown px-3 py-2 rounded-4">add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 px-2 py-3">
+                            <div class="card-body py-0">
+                                <div class="card-title color-brown m-0 fw-semibold">Huawei nova 9</div>
+                                <div class="card-text color-red fw-semibold">1 left in stock</div>
+                            </div>
+                            <a href="commodity.html" target="_blank">
+                                <img src="images/phone.svg" class="card-img-top my-2" alt="commodity">
+                            </a>
+                            <div class="card-body py-0 d-flex flex-row flex-nowrap align-items-center">
+                                <span class="color-brown fw-semibold me-auto">300$</span>
+                                <button type="button" class="add-to-cart btn color-brown px-3 py-2 rounded-4">add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 px-2 py-3">
+                            <div class="card-body py-0">
+                                <div class="card-title color-brown m-0 fw-semibold">Huawei nova 9</div>
+                                <div class="card-text color-red fw-semibold">1 left in stock</div>
+                            </div>
+                            <a href="commodity.html" target="_blank">
+                                <img src="images/phone.svg" class="card-img-top my-2" alt="commodity">
+                            </a>
+                            <div class="card-body py-0 d-flex flex-row flex-nowrap align-items-center">
+                                <span class="color-brown fw-semibold me-auto">300$</span>
+                                <button type="button" class="add-to-cart btn color-brown px-3 py-2 rounded-4">add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-wrapper" class="bg-brown color-white px-5 py-2 fw-semibold container-fluid d-flex flex-row flex-nowrap justify-content-center align-items-center">
+            <div class="color-linen fs-5">2023 © VPT</div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
