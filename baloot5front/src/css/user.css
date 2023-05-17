@@ -1,0 +1,87 @@
+#user {
+    box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+}
+#user > #user-details > div {
+    margin-bottom: 8px;
+}
+#user > #user-details .logo-name {
+    background: url('../icons/user.svg');
+}
+#user > #user-details .logo-email {
+    background: url('../icons/mail.svg');
+}
+#user > #user-details .logo-birthdate {
+    background: url('../icons/calendar.svg');
+}
+#user > #user-details .logo-address {
+    background: url('../icons/location.svg');
+}
+#user > #user-details .user-logo {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    margin-right: 8px;
+}
+@media only screen and (min-width: 1200px) {
+    #user > #user-credit > #current-credit {
+        font-size: 5rem;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    #user > #user-credit > #current-credit {
+        font-size: 6rem;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #user > #user-credit > #current-credit {
+        font-size: 4rem;
+    }
+}
+#user > #user-credit > form > * {
+    height: 40px;
+}
+#user > #user-credit > form > input {
+    outline: none;
+}
+#user > #user-credit > form > button:hover {
+    background-color: var(--color-02);
+    color: var(--color-06);
+}
+#cart #cart-logo {
+    background: url('../icons/cart.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+
+}
+#history #history-logo {
+    background: url('../icons/history.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+
+}
+#cart > #cart-header, #history > #history-header {
+    box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+}
+#cart > .cart-commodity, #history > .history-commodity {
+    box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+}
+#cart > .cart-commodity .cart-quantity {
+    border: 1px solid var(--color-01);
+    height: 3.2rem;
+}
+#cart > .cart-commodity .cart-quantity > div:hover {
+    background-color: var(--color-06);
+    cursor: pointer;
+}
+#cart button:hover {
+    background-color: var(--color-02);
+    color: var(--color-06);
+}
