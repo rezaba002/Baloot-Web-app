@@ -12,4 +12,6 @@ Baloot projects are Internet Engineering course projects containing these topics
 9. Spring Boot FrameWork
 10. API design
 11. layered architecture
-12. To be continued ...
+12. Spring Data JPA
+13. MySql Database
+14. Docker
