@@ -1,0 +1,81 @@
+* {
+    font-family: 'Inter';
+    font-style: normal;
+}
+:root {
+    --color-01: #593C1C;
+    --color-02: #A97B47;
+    --color-03: #C82525;
+    --color-04: #909090;
+    --color-05: #315FD8;
+    --color-06: #F7F0E9;
+    --color-07: #F5F5F5;
+    --color-08: #FFC700;
+    --color-09: #FFFFFF;
+    --color-10: #D8C1A8;
+
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+.bg-brown {
+    background-color: var(--color-01);
+}
+.color-brown {
+    color: var(--color-01);
+}
+.bg-copper {
+    background-color: var(--color-02);
+}
+.color-copper {
+    color: var(--color-02);
+}
+.bg-red {
+    background-color: var(--color-03);
+}
+.color-red {
+    color: var(--color-03);
+}
+.bg-grey {
+    background-color: var(--color-04);
+}
+.color-grey {
+    color: var(--color-04);
+}
+.bg-blue {
+    background-color: var(--color-05);
+}
+.color-blue {
+    color: var(--color-05);
+}
+.bg-linen {
+    background-color: var(--color-06);
+}
+.color-linen {
+    color: var(--color-06);
+}
+.bg-smoke {
+    background-color: var(--color-07);
+}
+.color-smoke {
+    color: var(--color-07);
+}
+.bg-yellow {
+    background-color: var(--color-08);
+}
+.color-yellow {
+    color: var(--color-08);
+}
+.bg-white {
+    background-color: var(--color-09) !important;
+}
+.color-white {
+    color: var(--color-09) !important;
+}
+.bg-dun {
+    background-color: var(--color-10);
+}
+.color-dun {
+    color: var(--color-10);
+}
