@@ -1,0 +1,135 @@
+#commodity > #commodity-details {
+    position: relative;
+}
+@media only screen and (min-width: 1200px) {
+    #commodity > #commodity-details > div {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    #commodity > #commodity-details #commodity-name {
+        font-size: 2.8rem;
+    }
+    #commodity > #commodity-details #commodity-price {
+        font-size: 1.8rem;
+    }
+    #commodity > #commodity-details #add-to-cart {
+        font-size: 1.2rem;
+    }
+    #commodity > #commodity-details #commodity-rate #sumbit {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #commodity > #commodity-details > div {
+        font-size: 1rem;
+        margin-bottom: 0.428rem;
+    }
+    #commodity > #commodity-details #commodity-name {
+        font-size: 1.8rem;
+    }
+    #commodity > #commodity-details #commodity-price {
+        font-size: 1.3rem;
+    }
+    #commodity > #commodity-details #add-to-cart {
+        font-size: 1rem;
+    }
+    #commodity > #commodity-details #commodity-rate #sumbit {
+        font-size: 1rem;
+    }
+}
+#commodity > #commodity-details #commodity-provider > a {
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+}
+#commodity > #commodity-details #commodity-categories li {
+    margin: 14px 0;
+}
+#commodity > #commodity-details #price-add {
+    box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+}
+#commodity > #commodity-details #add-to-cart {
+    border: 1px solid var(--color-02);
+}
+#commodity > #commodity-details #add-to-cart:hover {
+    border: 1px solid var(--color-02);
+    background-color: var(--color-02);
+    color: var(--color-09);
+}
+#commodity > #commodity-details .logo-star {
+    background: url('../icons/star.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+#commodity > #commodity-details #commodity-rate .logo-star {
+    width: 22px;
+    height: 22px;
+}
+#commodity > #commodity-details #commodity-rating .logo-star {
+    position: relative;
+    top: 4px;
+    width: 32px;
+    height: 32px;
+}
+#commodity > #commodity-details #commodity-rate #sumbit:hover {
+    background-color: var(--color-02);
+    color: var(--color-06);
+}
+#comments > div {
+    box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+    padding: 2rem 3.5rem;
+}
+#comments > .comment > .comment-header {
+    font-size: 1.8rem;
+}
+#comments > .comment > .comment-date-user {
+    font-size: 1.2rem;
+    color: var(--color-04);
+}
+#comments > .comment > .comment-date-user > span {
+    margin-right: 1.5rem;
+}
+#comments > .comment > .comment-date-user > span:nth-of-type(2) {
+    font-size: 2.4rem;
+    position: relative;
+    bottom: 3px;
+    height: max-content;
+}
+#comments > .comment > .comment-like-dislike {
+    font-size: 1.2rem;
+}
+#comments > .comment > .comment-like-dislike > span:first-child {
+    color: var(--color-01);
+}
+#comments > .comment > .comment-like-dislike > span {
+    margin-left: 1rem;
+}
+#comments > .comment > .comment-like-dislike .logo-like {
+    background: url('../icons/like.svg');
+}
+#comments > .comment > .comment-like-dislike .logo-dislike {
+    background: url('../icons/dislike.svg');
+}
+#comments > .comment > .comment-like-dislike .logo {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}
+#comments > #comment-submit textarea {
+    outline: none;
+    border: none;
+}
+#comments > #comment-submit button:hover {
+    background-color: var(--color-02);
+    color: var(--color-06);
+}
+#commodity > #commodity-details #commodity-rating {
+    position: absolute;
+    top: 10%;
+    right: 26%;
+}

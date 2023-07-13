@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+}
+#body-wrapper {
+    height: 100%;
+}
+main {
+    height: 100%;
+}
+#main-wrapper {
+    height: 100%;
+}
+#main-wrapper > #error-text > div {
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+#main-wrapper > #error-text > div:nth-child(1) {
+    font-size: 6rem;
+}
+#main-wrapper > #error-text > div:nth-child(2) {
+    font-size: 2rem;
+}
+#main-wrapper > #error-text > div:nth-child(3) {
+    font-size: 1rem;
+}
+#main-wrapper > #error-text a {
+    font-size: 1.5rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#main-wrapper > #error-text a:hover {
+    background-color: var(--color-02);
+}
+#main-wrapper #baloot-logo {
+    background: url('../icons/baloot.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block;
+}

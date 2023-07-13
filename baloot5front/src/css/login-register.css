@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+}
+#body-wrapper {
+    height: 100%;
+}
+#main-wrapper form > * {
+    margin: 0.5rem 0;
+}
+#main-wrapper form input {
+    outline: none;
+}
+#main-wrapper form input[type="checkbox"] {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+#main-wrapper form > button:hover {
+    border: 1px solid var(--color-02);
+    background-color: var(--color-06);
+    color: var(--color-02);
+}
+#main-wrapper > div > a {
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#main-wrapper > div > a:hover {
+    background-color: var(--color-02);
+    color: var(--color-06);
+    cursor: pointer;
+}

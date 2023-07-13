@@ -1,0 +1,49 @@
+#available > * {
+    cursor: pointer;
+}
+#sort button {
+    border: none;
+}
+#sort button:hover {
+    background-color: var(--color-02);
+    color: var(--color-06);
+}
+#sort button.focused {
+    background-color: var(--color-02);
+    color: var(--color-06);
+}
+#commodities .card {
+    border: none;
+    box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+}
+@media only screen and (min-width: 1200px) {
+    #commodities .card-title {
+        font-size: 1.5rem;
+    }
+    #commodities span {
+        font-size: 1.25rem;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #commodities .card-title {
+        font-size: 1.2rem;
+    }
+    #commodities .card-text {
+        font-size: 0.8rem;
+    }
+    #commodities span {
+        font-size: 0.9rem;
+    }
+    #commodities button {
+        font-size: 0.9rem;
+    }
+}
+.add-to-cart {
+    height: 3rem;
+    border: 1px solid var(--color-02);
+}
+.add-to-cart:hover {
+    border: 1px solid var(--color-02);
+    background-color: var(--color-02);
+    color: var(--color-09);
+}
